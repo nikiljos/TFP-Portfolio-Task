@@ -15,6 +15,18 @@
     margin: 1rem;
 }
 
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+@media only screen and (min-width: 768px) {
+    .card-box{
+        flex-direction: row;
+    }
+}
+
 .icon{
     margin: 1rem;
 }
@@ -26,6 +38,27 @@
 .form-intro{
     padding: 2rem;
 }
+
 .form-body{
     padding: 2rem;
+}
+
+.subtitle{
+    font-weight: bold;
+}
+
+.box-col{
+    text-align: center;
+}
+
+.count-card{
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.count{
+    font-size: 1.5rem;
 }
